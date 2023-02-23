@@ -1,0 +1,38 @@
+body{
+  background-image: url('https://cdn.pixabay.com/photo/2020/08/09/14/25/business-5475664_960_720.jpg');
+  background-size: cover;
+}
+.navbar{
+  background-color: rgba(0, 0, 0, 0.397);
+}
+@keyframes opOut {
+  from {
+    opacity: 0%;
+    transform: scale(1.2);
+  }
+
+  to {
+    opacity: 100%;
+    transform: scale(1);
+  }
+}
+.homeContainer {
+  background-color: rgba(0, 0, 0, 0.532);
+  border-radius: 30px;
+  box-shadow: 0px 0px 40px rgb(12, 218, 241);
+  animation: opOut 2s;
+}
+.formContainer{
+  background-color: rgba(0, 0, 0, 0.532);
+  border-radius: 30px;
+  box-shadow: 0px 0px 40px rgb(12, 218, 241);
+  margin-top: 60px;
+  margin-bottom: 130px;
+  animation: opOut 2s;
+}
+
+.submitBtn{
+  background-color: #013a40;
+  box-shadow: 0px 0px 5px white;
+  color: white;
+}
